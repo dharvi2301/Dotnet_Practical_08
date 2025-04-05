@@ -9,6 +9,9 @@ namespace Dotnet_Practical_08.Interfaces
     // Interface
     public interface IUniversityMember
     {
+        /// <summary>
+        /// Displays the information of the university member.
+        /// </summary>
         void DisplayInfo();
     }
 }
